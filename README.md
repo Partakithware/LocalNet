@@ -11,6 +11,12 @@ fill localnet.conf with
 DNS=127.0.0.1
 Domains=~localnet
 ```
+then run
+```
+sudo systemctl daemon-reload
+sudo systemctl restart systemd-resolved
+resolvectl flush-caches
+```
 
 
 LocalNet Manager: DNS & Reverse Proxy Toolkit
