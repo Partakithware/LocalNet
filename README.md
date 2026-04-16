@@ -1,4 +1,4 @@
->![IMPORTANT]
+>
 >The .py is another test version all in one manager.....and is flawed below is a command that should fix it (run after install).
 
 ```
