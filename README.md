@@ -1,3 +1,18 @@
+>![IMPORTANT]
+>The .py is another test version all in one manager.....and is flawed below is a command that should fix it (run after install).
+
+```
+sudo mkdir -p /etc/systemd/resolved.conf.d/
+sudo nano /etc/systemd/resolved.conf.d/localnet.conf
+```
+fill localnet.conf with 
+``` 
+[Resolve]
+DNS=127.0.0.1
+Domains=~localnet
+```
+
+
 LocalNet Manager: DNS & Reverse Proxy Toolkit
 
 A collection of Bash scripts for deploying and managing a local DNS server (BIND9) and an Nginx reverse proxy on Debian-based systems.
