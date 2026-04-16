@@ -116,8 +116,8 @@ python3 -c "import tkinter; tkinter._test()"
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/yourname/localnet-manager.git
-cd localnet-manager
+git clone https://github.com/Partakithware/LocalNet.git
+cd LocalNet
 
 # 2. Install tkinter if you haven't already
 sudo apt install python3-tk
