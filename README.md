@@ -1,5 +1,6 @@
 >
->The .py is another test edition all in one manager.....and is flawed below is a command that should fix it (run after install).
+>The localnet_manager.py is another all-in-one edition.....it is currently flawed below is a command that should fix it (run after install).
+>No need for the .sh if you use the .py
 
 ```
 sudo mkdir -p /etc/systemd/resolved.conf.d/
