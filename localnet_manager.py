@@ -596,13 +596,20 @@ class App(tk.Tk):
         if vpn_safe:
             script += textwrap.dedent(f"""\
             # VPN-safe: route .localnet through systemd-resolved
-            mkdir -p /etc/systemd/resolved.conf.d
+            echo "  Creating resolved drop-in directory..."
+            mkdir -p /etc/systemd/resolved.conf.d/
+            echo "  Writing localnet.conf..."
             cat > /etc/systemd/resolved.conf.d/localnet.conf <<'RCNF'
-            [Resolve]
-            DNS=127.0.0.1
-            Domains=~{DOMAIN}
-            RCNF
+[Resolve]
+DNS=127.0.0.1
+Domains=~{DOMAIN}
+RCNF
+            echo "  Reloading systemd daemon..."
+            systemctl daemon-reload
+            echo "  Restarting systemd-resolved..."
             systemctl restart systemd-resolved
+            echo "  Flushing DNS caches..."
+            resolvectl flush-caches
             # Point resolv.conf to resolved stub (VPN-compatible)
             ln -sf /run/systemd/resolve/stub-resolv.conf /etc/resolv.conf
             echo "  resolv.conf → systemd-resolved stub (127.0.0.53)"
