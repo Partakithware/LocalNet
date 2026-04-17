@@ -13,15 +13,16 @@ Replaces a collection of shell scripts with a single desktop app. No browser req
 
 ## What It Does
 
-Version 3 Example Images
-![](./ver3img/1.png)
-![](./ver3img/2.png)
-![](./ver3img/3.png)
-![](./ver3img/4.png)
-![](./ver3img/5.png)
-![](./ver3img/6.png)
-![](./ver3img/7.png)
-
+Version 3 (Not yet released) Images (No more tk required, now web - defaults to port 8091)
+<details>
+<img src="./ver3img/1.png"/>
+<img src="./ver3img/2.png"/>
+<img src="./ver3img/3.png"/>
+<img src="./ver3img/4.png"/>
+<img src="./ver3img/5.png"/>
+<img src="./ver3img/6.png"/>
+<img src="./ver3img/7.png"/>
+</details>
 LocalNet Manager lets you run your own DNS server on your local machine so every device on your network can reach services by name instead of IP.
 
 ```
