@@ -1,5 +1,5 @@
-# ⬡ LocalNet Manager
-
+# ⬡ LocalNet Manager (Ver.2)
+(Working on a v3 manager...with better features and UI)
 A clean, dark-themed Python GUI for running a private local DNS server and Nginx reverse proxy on your home or lab network — with **full VPN compatibility** built in.
 
 Replaces a collection of shell scripts with a single desktop app. No browser required, no Docker, no cloud.
