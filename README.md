@@ -13,7 +13,9 @@ Replaces a collection of shell scripts with a single desktop app. No browser req
 
 ## What It Does
 
-Version 3 (Not yet released) Images (No more tk required, now web - defaults to port 8091)
+Version 3 (Not yet released) 
+
+V3 Images (No more tk required, now web - defaults to port 8091)
 <details>
 <img src="./ver3img/1.png"/>
 <img src="./ver3img/2.png"/>
