@@ -13,6 +13,17 @@ DNS · Reverse Proxy · DHCP · SSL/TLS · Ad Blocking · Backups — all from y
 
 So, I let AI write the Docs/Readme. I'm slowly looking through it...as it should be good, if you find anything invalid let me know!
 
+> [!NOTE]
+> **v4_alpha_c Update: The Device Manager**
+>
+> This update introduces a dedicated **Device Manager** tab to the DNS section for automated network control and visibility.
+>
+> * **Auto-Discovery:** Automatically detects devices on your network via BIND9 query logs.
+> * **Quick Registration:** Map local IPs to hostnames (e.g., `mypc2.localnet`) with one click.
+> * **Access Control:** Directly **Block** or **Unblock** devices from DNS resolution using a managed ACL system.
+> * **Device Cleanup:** Remove stale or "unlabeled" entries from the local database.
+
+
 <br>
 
 [![Python](https://img.shields.io/badge/Python-3.10+-3776ab?style=flat-square&logo=python&logoColor=white)](https://python.org)
