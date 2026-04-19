@@ -8,6 +8,11 @@
 > * **Access Control:** Directly **Block** or **Unblock** devices from DNS resolution using a managed ACL system.
 > * **Device Cleanup:** Remove stale or "unlabeled" entries from the local database.
 
+>
+> Alpha C2 & C3 Updates:
+> 2 -
+> 3 - 
+
 <div align="center">
 
 <br>
