@@ -10,8 +10,8 @@
 
 >
 > Alpha C2 & C3 Updates:
-> 2 -
-> 3 - 
+> 2 - ![Notes](https://github.com/Partakithware/LocalNet/issues/1)
+> 3 - ![Notes](https://github.com/Partakithware/LocalNet/issues/2)
 
 <div align="center">
 
