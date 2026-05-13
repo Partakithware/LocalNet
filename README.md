@@ -38,9 +38,6 @@
     display: flex;
     min-height: 100vh;
   }
-  pre {
-    background-color: #667699;
-  }
 
   /* ── Sidebar ──────────────────────────────────────────────────────────── */
   nav {
