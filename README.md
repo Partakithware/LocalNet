@@ -38,7 +38,7 @@
     display: flex;
     min-height: 100vh;
   }
-
+  pre { background: var(--bg4);}
   /* ── Sidebar ──────────────────────────────────────────────────────────── */
   nav {
     width: var(--nav-w);
